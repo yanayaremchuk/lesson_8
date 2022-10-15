@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Ruslan+Display&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+body {
+    font-family: "Lato", serif;
+    color: #424551;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+[class*="__container"]{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.header__container{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 55px;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.page_container{
+    margin-bottom: 60px;
+}
+.top__container{
+   margin-bottom: 60px;
+   line-height: 160%;
+}
+.center__container{
+    margin-bottom: 60px;
+}
+.center__container p:first-child{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1E212C ;
+    margin-bottom: 30px;
+}
+.center__container li{
+    line-height: 160%;
+    background: url(../img/vector.png) 0 6px no-repeat;
+    padding-left: 32px;
+}
+.bottom__container p:first-child {
+    line-height: 150%;
+    font-weight: 700;
+}
+.bottom__container p:nth-child(2) {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    padding-bottom: 20px;
+}
+.bottom__container p:nth-child(3) {
+    font-size: 20px;
+    line-height: 130%;
+    color: #787A80;
+    padding-bottom: 30px;
+}
+.bottom__container li{
+    font-weight: 700;
+    line-height: 160%;
+    padding-left: 26px;  
+}
+.bottom__container li:not(:last-child){
+	margin-bottom: 5px;
+}
+.bottom__container ul{
+    margin-bottom: 40px;
+}
+.bottom__container li:first-child{
+    background: url(../img/star.png) 0 6px no-repeat;
+}
+.bottom__container li:nth-child(2){
+    background: url(../img/play.png) 0 6px no-repeat;
+}
+.bottom__container li:nth-child(3){
+    background: url(../img/student.png) 0 5px no-repeat;
+}
+.bottom__container p:last-child{
+    line-height: 160%;
+}
+.bottom__container{
+    margin-bottom: 40px;
+}
+.psevdoclas{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-bottom: 30px;
+}
+[class*="__block"]{
+    max-width: 680px;
+    margin: 0 auto;
+}
+.hover__block{
+    margin-bottom: 30px;
+}
+.hover__block p{
+   font-size: 60px;
+}
+.hover__block div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(107, 101, 101);
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+}
+.hover__block div:hover{
+    background:rgba(0, 0, 0, 0.25) url(../img/gomer2.png)  0 0 / auto 100% no-repeat;
+    padding: 30px;
+    transition: all 0.8s ease 0s;
+}
+.hover__block div:nth-child(6):hover{
+    background:rgba(146, 137, 137, 0.279) url(../img/bart.png) 100% 0 no-repeat;
+    padding: 30px;
+}
+.active__block{
+    margin-bottom: 30px;
+}
+.active__block p{
+    font-size: 48px;
+}
+.active__block div{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgb(177, 173, 173);
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+}
+.active__block div p{
+    text-align: center;
+    font-size: 24px;
+}
+.active__block div:active{
+    background:rgb(107, 101, 101) url(../img/nelson.png) 0 0 / auto 100% no-repeat;
+}
+.active__block div:last-child:active{
+   background:rgb(202, 192, 192) url(../img/lisa.png) 0 0 / auto 100% no-repeat;
+}
+.link__block{
+    font-size: 60px;
+    color: #787A80;
+    margin-bottom: 30px;
+}
+.link__block a:visited{
+    color: rgb(10, 77, 54);
+}
+.form__block{
+    max-width: 600px;
+    height: 200px;
+    border-color: #787A80;
+    border-style: solid;
+    border-radius: 20px;
+    font-size:24px;
+}
+.form__block p{
+    margin: 10px;
+    text-align: center;
+}
+.form__block p:first-child{
+    font-size: 36px;
+}
+input {
+    font-size:24px;
+    padding:2px;
+    border: 2px solid #787A80;
+    box-shadow: 0 0 2px 1px rgb(77, 78, 74);
+    border-radius: 10px;
+  }
+  input:focus {
+    outline: 3px solid rgb(175, 12, 12);
+  }
+.game{
+    width: 900px;
+    height: 500px;
+    background-color: #787A80;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(231, 243, 81);
+}
+.start {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(231, 243, 8);
+    border-radius: 10px;
+    padding: 20px;
+}
+.start p{
+    text-align: center;
+    font-weight: 700;
+}
+.start:hover + div,
+.block1:hover {
+    visibility: visible;
+}
+.block1{
+    width: 30px;
+    height: 100px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 60px;
+}
+.block1:hover + div,
+.block2:hover {
+    visibility: visible;
+}
+.block2{
+    width: 170px;
+    height: 30px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 60px;
+}
+.block2:hover + div,
+.block3:hover {
+    visibility: visible;
+}
+.block3{
+    width: 30px;
+    height: 120px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 200px;
+}
+.block3:hover + div,
+.block4:hover {
+    visibility: visible;
+}
+.block4{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 200px;
+}
+.block4:hover + div,
+.block5:hover {
+    visibility: visible;
+}
+.block5{
+    width: 30px;
+    height: 70px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 370px;
+}
+.block5:hover + div,
+.block6:hover {
+    visibility: visible;
+}
+.block6{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 370px;
+}
+.block6:hover + div,
+.block7:hover {
+    visibility: visible;
+}
+.block7{
+    width: 30px;
+    height: 150px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 520px;
+    margin-top: -180px;
+}
+.block7:hover + div,
+.block8:hover {
+    visibility: visible;
+}
+.block8{
+    width: 140px;
+    height: 30px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 520px;
+    margin-top: -180px;
+}
+.block8:hover + div,
+.block9:hover {
+    visibility: visible;
+}
+.block9{
+    width: 30px;
+    height: 120px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 630px;
+}
+.block9:hover + div,
+.block10:hover {
+    visibility: visible;
+}
+.block10{
+    width: 190px;
+    height: 30px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 630px;
+}
+.block10:hover + div,
+.block11:hover {
+    visibility: visible;
+}
+.block11{
+    width: 30px;
+    height: 50px;
+    background-color: rgb(231, 243, 8);
+    visibility: hidden;
+    margin-left: 790px;
+}
+.block11:hover + div,
+.block12:hover {
+    visibility: visible;
+}
+.block12{
+    background:rgb(231, 243, 8) url(../img/simpsons4.png) 0 0 no-repeat;
+    width: 900px;
+    height: 500px;
+    visibility: hidden;
+    margin-top: -450px;
+    border-radius: 10px;
+}
+.button{
+    font-family: "Shadows Into Light";
+    font-size: 36px;
+    width: 70px;
+    height: 70px;
+	background-color: rgb(231, 243, 8);
+	padding: 15px 20px;
+	color: rgb(144, 139, 139);
+	border-radius: 50px;
+	box-shadow: 2px 2px  rgb(144, 139, 139);
+    margin: 0 auto;
+}
